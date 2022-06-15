@@ -13,3 +13,6 @@ where year between 2018 and 2020;
 
 select name from executor
 where name not like '% %';
+
+select name from track
+where name like '%My%';
